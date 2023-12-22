@@ -1,7 +1,9 @@
 const { expect, assert } = require('chai');
 const { testOptional } = require('../extensions/index.js');
 const { countCats } = require('../src/count-cats.js');
-
+// const countCats =()=>{
+//
+// }
 it.optional = testOptional;
 
 Object.freeze(expect);
